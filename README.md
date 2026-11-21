@@ -34,16 +34,7 @@ Reconnaître automatiquement l'espèce d'une fleur à partir d'une photo. Avec 1
 
 Meilleure exactitude en validation : 95,4 % (époque 9).
 
-![Courbe d'exactitude](images/courbe_accuracy.png)
-![Courbe de perte](images/courbe_loss.png)
-
 **Lecture :** le modèle reconnaît correctement environ 95 % des images de validation sur 102 classes. L'écart avec l'entraînement (99,6 %) indique un léger surapprentissage.
-
-### Exemples de prédictions
-
-![Exemple 1](images/exemple_prediction_1.png)
-![Exemple 2](images/exemple_prediction_2.png)
-![Exemple 3](images/exemple_prediction_3.png)
 
 ## Limites et pistes d'amélioration
 
@@ -59,11 +50,7 @@ classification-fleurs-mobilenetv2/
 ├── README.md
 ├── classification_fleurs.ipynb
 ├── requirements.txt
-├── .gitignore
-└── images/
-    ├── courbe_accuracy.png
-    ├── courbe_loss.png
-    └── exemple_prediction_1.png ...
+└── .gitignore
 ```
 
 ## Installation et utilisation
